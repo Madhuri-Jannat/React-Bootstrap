@@ -1,9 +1,9 @@
-import axios from 'axios'
+
 import React, { useEffect, useState } from 'react'
 
 
 export default function Display_data() {
-    const[users,setUsers]= useState({});
+    const[users,setUsers]= useState([]);
     useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
