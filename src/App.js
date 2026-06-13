@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Event from './pages/Event';
 import Forms from './pages/Forms';
 import Display_data from './pages/Display_data';
+import UserList from './pages/UserList';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     <Route path='/event' element={<Event />}/>
     <Route path='/forms' element={<Forms/>}/>
     <Route path='/Display_data' element={<Display_data/>}/>
+    <Route path='/UserList' element={<UserList/>}/>
 
     
    </Routes>

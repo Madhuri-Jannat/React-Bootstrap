@@ -8,9 +8,9 @@ $Gender= $data['gender'];
 $Address= $data['address'];
 $District= $data['district'];
 
-
+if(!empty($name)){
 $db->query("INSERT INTO users (id,name,gender,address,district) VALUES(NULL,'$name','$Gender','$Address','$District')");
-
+}
 
 if($db->affected_rows>0){
     echo json_encode(["message"=> "user created successfully"]);

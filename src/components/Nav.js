@@ -25,6 +25,10 @@ export default function Nav() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/Display_data">Display_data</Link>
                         </li>
+                         <li className="nav-item">
+                            <Link className="nav-link" to="/UserList">UserList</Link>
+                        </li>
+
                         
                     </ul>
                 </div>
